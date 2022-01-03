@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header,
+  .main,
+  .footer {
+    background-color: #13064d;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .header > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 50px;
+    background-color: #1286d3;
+  }
+  
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  .menu-link {
+    padding: 0 20px;
+    line-height: 100px;
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+
+  .main > .container {
+    background-color: #3a9bd3f8;
+    height: calc(122vh - (70px + 100px));
+  }
+  
+  .main,
+  h1,
+  h2 {
+    color: #130f29;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 200px 0 150px;
+  }
+  
+  .about me {
+    padding: 20px;
+  }
+  
+  .line-profile {
+    width: 670px;
+    border-bottom: 3px solid #0d0581;
+  }
+  
+  .block1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    margin-bottom: -20px;
+  }
+  
+  .line-title {
+    width: 300px;
+    margin: -14px;
+    border-bottom: 3px solid #0d0581;
+    margin-bottom: -10px;
+  }
+  
+  .block2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    margin-bottom: -20px;
+  }
+  
+  .block3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px 0 150px;
+  }
+  
+  .photo {
+    width: 220px;
+    height: 290px;
+  }
+  
+  .footer > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #000000;
+    background-color: #1286d3;
+  }
+  
+  .copyright {
+    padding-left: 40px;
+    
+  }
+  
+  .rss {
+    width: 121px;
+    height: 50px;
+    padding-right: 40px;
+  }
